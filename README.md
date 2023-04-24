@@ -1,2 +1,2 @@
 # Music Player - SvelteJS
-Link: https://app.netlify.com/sites/cheery-stardust-5b72c2
+Link: https://cheery-stardust-5b72c2.netlify.app/
