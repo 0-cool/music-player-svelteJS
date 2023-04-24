@@ -3,7 +3,7 @@
 	import {musicList} from "./musiclist";
 
 	let currentSongIndex = 0;
-	let playerState = "play";
+	let playerState = "pause";
 	let audioElement;
 	let mainElement;
 
@@ -176,7 +176,7 @@
 	<div class="player">
 		<div class="current-song">
 			<div class="avatar">
-				<img src="{"./files/image/"+$musicList[currentSongIndex].image}">
+				<img src="{"./files/image/"+$musicList[currentSongIndex].image}" alt={$musicList[currentSongIndex].artist}>
 			</div>
 			<div class="song-controls">
 				<h2>{$musicList[currentSongIndex].name}</h2>
@@ -205,7 +205,7 @@
 
 				>
 				<div class="avatar">
-					<img src="./files/image/{music.image}">
+					<img src="./files/image/{music.image}" alt={musicList.artist}>
 				</div>
 				<div class="song-details">
 					<h2>{music.name}</h2>
